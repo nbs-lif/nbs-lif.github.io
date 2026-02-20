@@ -1,8 +1,9 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NBS | Web Developer</title>
+<title>Alif Alimudin | Portfolio</title>
 
 <style>
 * {
@@ -15,33 +16,71 @@
 body {
     background: #0f172a;
     color: #f1f5f9;
+    line-height: 1.7;
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
     padding: 40px 20px;
 }
 
-header {
-    text-align: center;
-    padding: 100px 20px;
+h1 {
+    font-size: 40px;
 }
 
-header h1 {
-    font-size: 48px;
+h2 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+p {
+    text-align: justify;
     margin-bottom: 10px;
+    color: #cbd5e1;
 }
 
-header p {
-    font-size: 20px;
-    color: #94a3b8;
+.section-box {
+    margin-bottom: 30px;
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.job h3 {
+    color: #38bdf8;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.skills-group {
+    margin-top: 10px;
+}
+
+.skills-group span {
+    display: inline-block;
+    background: #1e293b;
+    padding: 8px 12px;
+    margin: 5px 5px 0 0;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.download-section {
+    margin-top: 70px;
+    text-align: center;
 }
 
 .btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
+    margin: 10px;
+    padding: 12px 20px;
     background: #38bdf8;
     color: #0f172a;
     text-decoration: none;
@@ -54,42 +93,10 @@ header p {
     background: #0ea5e9;
 }
 
-.section {
-    margin-top: 80px;
-}
-
-.section h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
-    border-left: 4px solid #38bdf8;
-    padding-left: 10px;
-}
-
-.skills span {
-    display: inline-block;
-    background: #1e293b;
-    padding: 8px 14px;
-    margin: 5px;
-    border-radius: 6px;
-    font-size: 14px;
-}
-
-.project {
-    background: #1e293b;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    transition: 0.3s;
-}
-
-.project:hover {
-    transform: translateY(-5px);
-}
-
 footer {
     text-align: center;
-    padding: 40px 20px;
     margin-top: 60px;
+    padding: 30px;
     color: #64748b;
 }
 </style>
@@ -97,59 +104,110 @@ footer {
 
 <body>
 
-<header>
-    <h1>NBS</h1>
-    <p>Web Developer | System Engineer</p>
-    <a href="#" class="btn">Download CV</a>
-</header>
-
 <div class="container">
 
-    <div class="section">
-        <h2>About Me</h2>
-        <p>
-            Profesional muda yang teliti, komunikatif, dan berorientasi pada proses. 
-            Berpengalaman dalam bidang Supply Chain Management, procurement, manajemen vendor, 
-            serta sistem dokumentasi melalui keterlibatan proyek dan magang di perusahaan BUMN. 
-            Memiliki kemampuan sourcing, analisis data, pengelolaan dokumen procurement, 
-            serta pencatatan stok dan penyusunan laporan administrasi dengan akurat. 
-            Memiliki ketertarikan dan pemahaman yang kuat dalam bidang supply chain 
-            management, purchasing, logistik, dan administrasi operasional untuk mendukung kelancaran proses bisnis. 
-            Menguasai Microsoft Office dan berbagai tools analisis, serta siap berkontribusi secara optimal bagi perusahaan.
-        </p>
-    </div>
+<h1>Alif Alimudin</h1>
+<p>Jakarta | alifalimudin111@gmail.com | +62 821 9588 9631</p>
 
-    <div class="section">
-        <h2>Skills</h2>
-        <div class="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>System Design</span>
-            <span>Automation</span>
-        </div>
-    </div>
+<h2>Profil</h2>
+<p>
+Profesional muda yang teliti, komunikatif, dan berorientasi pada proses. 
+Berpengalaman dalam Supply Chain Management, procurement, manajemen vendor, 
+serta sistem dokumentasi melalui proyek dan magang di perusahaan BUMN. 
+Memiliki kemampuan sourcing, analisis data, pengelolaan dokumen procurement, 
+serta pencatatan stok dan penyusunan laporan administrasi secara akurat. 
+Tertarik pada bidang supply chain, purchasing, logistik, dan administrasi operasional 
+untuk mendukung kelancaran proses bisnis. Menguasai Microsoft Office, tools analisis, 
+serta siap berkontribusi optimal bagi perusahaan.
+</p>
 
-    <div class="section">
-        <h2>Projects</h2>
+<h2>Pengalaman & Proyek</h2>
 
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>Website personal profesional berbasis GitHub Pages.</p>
-        </div>
+<div class="job">
+<h3>Vendor Development & QA Logistics – PT Enseval Putera Megatrading Tbk. (2026)</h3>
+<ul>
+<li>Monitoring 500+ aktivitas distribusi per bulan melalui analisis data keluhan dan evaluasi transporter.</li>
+<li>Audit dan evaluasi vendor berdasarkan SOP dan KPI logistik.</li>
+<li>Menurunkan keterlambatan pengiriman ±15%.</li>
+</ul>
+</div>
 
-        <div class="project">
-            <h3>Automation System</h3>
-            <p>Sistem otomatisasi untuk pengolahan data dan reporting.</p>
-        </div>
+<div class="job">
+<h3>Penyelia Manajemen Kategori – PT Indonesia Asahan Aluminium (2025)</h3>
+<ul>
+<li>Sourcing 30+ vendor potensial dan monitoring 500 data kontrak.</li>
+<li>Meningkatkan efisiensi pelacakan dokumen hingga 40%.</li>
+<li>Perancangan model penilaian vendor metode AHP.</li>
+</ul>
+</div>
 
-    </div>
+<div class="job">
+<h3>Analis Risiko Rantai Pasok – Project Base (2025)</h3>
+<ul>
+<li>Analisis distribusi dan risiko SCM.</li>
+<li>Efisiensi operasional meningkat hingga 20%.</li>
+</ul>
+</div>
 
+<h2>Pendidikan</h2>
+<p><strong>S1 Teknik Industri</strong> – UIN Sunan Kalijaga Yogyakarta (2022–Sekarang)<br>
+IPK: 3.6</p>
+
+<h2>Lisensi & Sertifikasi</h2>
+<ul>
+<li>Microsoft Excel Proficiency Certificate (2025)</li>
+<li>Talented Generation Internship Certificate (2025)</li>
+<li>Dynamic Systems & Analysis Software Training (2025)</li>
+</ul>
+
+<h2>Penghargaan</h2>
+<p>(Tambahkan penghargaan jika ada – bisa kamu isi nanti)</p>
+
+<h2>Keahlian</h2>
+
+<strong>Hard Skills:</strong>
+<div class="skills-group">
+<span>Data Analysis</span>
+<span>SPSS</span>
+<span>Minitab</span>
+<span>Python</span>
+<span>Power BI</span>
+<span>Tableau</span>
+<span>Procurement</span>
+<span>Supply Chain</span>
+<span>ERP</span>
+</div>
+
+<strong>Soft Skills:</strong>
+<div class="skills-group">
+<span>Leadership</span>
+<span>Critical Thinking</span>
+<span>Communication</span>
+<span>Problem Solving</span>
+<span>Teamwork</span>
+<span>Time Management</span>
+</div>
+
+<div class="download-section">
+<h2>Dokumen & Portofolio</h2>
+
+<a class="btn" href="LINK-CV-DI-SINI" target="_blank">Download CV</a>
+<a class="btn" href="LINK-SKCK-DI-SINI" target="_blank">Download SKCK</a>
+
+<a class="btn" href="LINK-PORTOFOLIO-1" target="_blank">Portfolio 1</a>
+<a class="btn" href="LINK-PORTOFOLIO-2" target="_blank">Portfolio 2</a>
+
+<a class="btn" href="LINK-SERTIFIKAT" target="_blank">Sertifikat</a>
+
+<a class="btn" href="LINK-DOKUMEN-1" target="_blank">Dokumen Pendukung 1</a>
+<a class="btn" href="LINK-DOKUMEN-2" target="_blank">Dokumen Pendukung 2</a>
 </div>
 
 <footer>
-    © 2026 NBS | Built with GitHub Pages
+© 2026 Alif Alimudin | Professional Portfolio
 </footer>
+
+</div>
 
 </body>
 </html>
